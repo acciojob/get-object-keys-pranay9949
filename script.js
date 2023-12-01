@@ -1,6 +1,8 @@
 //your JS code here. If required.
 let obj={
-	name:"Pranay"
+	name:"Pranay",
+	age:30,
+	city:"New York"
 }
 Object.prototype.getKeys=()=>{
 	let arr=Object.getOwnPropertyNames(obj);
